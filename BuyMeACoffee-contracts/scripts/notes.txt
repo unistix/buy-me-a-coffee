@@ -1,0 +1,52 @@
+Compiled 1 Solidity file successfully
+BuyMeACoffee deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+== start ==
+Address 0 balance:  9999.99857134
+Address 1 balance:  10000.0
+Address 2 balance:  0.0
+
+D:\Code\BuyMeACoffee-contracts>npx hardhat run scripts/buy-coffee.js
+BuyMeACoffee deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3 //same deployement
+== start ==
+Address 0 balance:  9999.99857134 //owner address
+Address 1 balance:  10000.0
+Address 2 balance:  0.0
+== bought coffee ==
+Address 0 balance:  9999.99857134 //when we withdraw we can collect tips
+Address 1 balance:  9998.9997522171056327 //address 1 has paid abit more than 1 for gas
+Address 2 balance:  3.0
+
+
+BuyMeACoffee deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+== start ==
+Address 0 balance:  9999.99857134
+Address 1 balance:  10000.0
+Address 2 balance:  0.0
+== bought coffee ==
+Address 0 balance:  9999.99857134
+Address 1 balance:  9998.9997522171056327
+Address 2 balance:  3.0
+== withdrawTips ==
+Address 0 balance:  10002.99852542116588698
+Address 1 balance:  9998.9997522171056327
+Address 2 balance:  0.0 //zero and owners balance has increased
+
+
+D:\Code\BuyMeACoffee-contracts>npx hardhat run scripts/deploy.js
+
+
+D:\Code\BuyMeACoffee-contracts>npx hardhat run scripts/deploy.js --network goerli
+You have both ethereum-waffle and @nomicfoundation/hardhat-chai-matchers installed. They don't work correctly together, so please make sure you only use one.
+
+We recommend you migrate to @nomicfoundation/hardhat-chai-matchers. Learn how to do it here: https://hardhat.org/migrate-from-waffle
+You have both ethereum-waffle and @nomicfoundation/hardhat-chai-matchers installed. They don't work correctly together, so please make sure you only use one.
+
+We recommend you migrate to @nomicfoundation/hardhat-chai-matchers. Learn how to do it here: https://hardhat.org/migrate-from-waffle
+BuyMeACoffee deployed to: 0xEd957ba375dc66A1f8ABAba947985922105ae0Af <!-----HERE
+
+IF YOU CHANGE CONTRACT MAKE SURE TO REDEPLOY
+
+
+https://buymeacoffee-solidity-defi-tipping-app.cynthiadafinone.repl.co/
+
+https://replit.com/@CynthiaDafinone/BuyMeACoffee-Solidity-DeFi-Tipping-app#pages/index.jsx
